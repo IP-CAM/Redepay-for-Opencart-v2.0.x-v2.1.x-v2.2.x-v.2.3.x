@@ -1,39 +1,39 @@
-[<p align="center"><img src="https://stc.useredepay.com.br/portal/assets/institucional/img/logo.svg" width="90%"/></p>](https://www.useredepay.com.br "Rede Pay")
 
-<p align="center">Módulo de pagamento para a plataforma de e-commerce Opencart</p>
+<p align = "center"> Payment module for the Opencart e-commerce platform </p>
 
-```Importante! Este módulo é opensource e não possui vínculo com a Rede ou Itaú.```
+`` Important! This module is open source and has no link to Rede or Itaú.```
 
-### Instalação
-1. Faça download da versão estável do módulo através do site oficial do Opencart, [clique aqui](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=28757 "Rede Pay").
-1. Descompacte o arquivo ```.zip``` que foi baixado.
-1. Copie o conteúdo da pasta ```upload``` (referente a sua versão) para a pasta onde o Opencart estiver instalado.
-1. Vá ao painel de administração do Opencart e ative/configure o módulo Rede Pay.
+### Installation
+1. Download the stable version of the module through the official Opencart website, [click here] (https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=28757 "Rede Pay").
+1. Unzip the downloaded `` `.zip`` file.
+1. Copy the contents of the `` upload '' folder (referring to your version) to the folder where Opencart is installed.
+1. Go to the Opencart administration panel and activate / configure the Rede Pay module.
 
-### Notas & Compatibilidade
+### Notes & Compatibility
 
-| Versão | Notas | Compatibilidade |
+| Version | Notes | Compatibility |
 | ------ | ----- | --------------- |
-| 1.4.1  | Resolvendo bug da imagem do Rede Pay ao selecionar o método de pagamento. | 2.0.X, 2.1.X, 2.2.X, 2.3.X |
-| 1.4    | Adicionando compatibilidade com outras versões do Opencart. | 2.0.X, 2.1.X, 2.2.X, 2.3.X |
-| 1.3.2  | Resolvendo bug que acontecia no momento do callback, os dados vem do body não da url. | 2.0.X, 2.1.X, 2.2.X |
-| 1.3.1  | Resolvendo bug que acontecia no momento da primeira entrada na página de checkout, o número do pedido ainda não havia sido criado. | 2.0.X, 2.1.X, 2.2.X |
-| 1.3    | Organizando melhor os campos no painel de configuração, tornando os campos de telefone e complemento opcionais, adicionando valor mínimo para ativar o parcelamento, adicionando valor mínimo para as parcelas, e adicionando valor mínimo para ativar o módulo. | 2.0.X, 2.1.X, 2.2.X |
-| 1.2    | Adicionando compatibilidade com outras versões do Opencart. | 2.0.X, 2.1.X, 2.2.X |
-| 1.1    | Melhorias nos textos na seção de configuração do módulo. | 2.0.1.1 |
-| 1.0    | Integração com as APIs de pagamento e notificação. | 2.0.1.1 |
+| 1.4.1 | Resolving bug of the image of Rede Pay when selecting the payment method. | 2.0.X, 2.1.X, 2.2.X, 2.3.X |
+| 1.4 | Adding compatibility with other versions of Opencart. | 2.0.X, 2.1.X, 2.2.X, 2.3.X |
+| 1.3.2 | Resolving a bug that happened at the time of the callback, the data comes from the body not the url. | 2.0.X, 2.1.X, 2.2.X |
+| 1.3.1 | Resolving a bug that occurred at the time of the first entry on the checkout page, the order number had not yet been created. | 2.0.X, 2.1.X, 2.2.X |
+| 1.3 | Organizing the fields in the configuration panel better, making the telephone and add-on fields optional, adding a minimum value to activate the installment, adding a minimum value for the installments, and adding a minimum value to activate the module. | 2.0.X, 2.1.X, 2.2.X |
+| 1.2 | Adding compatibility with other versions of Opencart. | 2.0.X, 2.1.X, 2.2.X |
+| 1.1 | Improvements to the texts in the module configuration section. | 2.0.1.1 |
+| 1.0 | Integration with the payment and notification APIs. | 2.0.1.1 |
 
-## To dos
+## All
 
-- [ ] Integração com a API de estorno, estornar valor do pedido direto do admin.
-- [ ] Integração com a API de código de rastreio, adicionar e remover código de rastreio direto do admin.
-- [ ] Adicionar funcionalidade de oferecer desconto quando o Rede Pay for escolhido como forma de pagamento.
+- [] Integration with the chargeback API, reverse the admin's direct order amount.
+- [] Integration with the tracking code API, adding and removing tracking code directly from the admin.
+- [] Add functionality to offer discount when Rede Pay is chosen as the payment method.
 
-## Contribua
+## Contribute
 
-Faça um fork do repositório, realize suas alterações e [crie um pull request](https://github.com/Marjoel/redepay-opencart/pulls "Clique aqui para criar um pull request").<br>
-Você está tendo algum problema com o módulo? [crie uma issue](https://github.com/Marjoel/redepay-opencart/issues "Clique aqui para criar uma issue").
+Fork the repository, make your changes and [create a pull request] (https://github.com/Marjoel/redepay-opencart/pulls "Click here to create a pull request"). <br>
+Are you having any problems with the module? [create an issue] (https://github.com/Marjoel/redepay-opencart/issues "Click here to create an issue").
 
-### Contribuidores
+### Contributors
 
-[Marjoel Moreira](https://www.marjoel.com/ "Marjoel Moreira") (@[MarjoeM](https://www.twitter.com/MarjoelM "Twitter"))
+[Marjoel Moreira] (https://www.marjoel.com/ "Marjoel Moreira") (@ [MarjoeM] (https://www.twitter.com/MarjoelM "Twitter")) 
+
